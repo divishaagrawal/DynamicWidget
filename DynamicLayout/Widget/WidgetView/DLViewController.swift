@@ -32,7 +32,6 @@ final class DLViewController: UIViewController {
             case let .response(model):
                 DispatchQueue.main.async {
                     self.widgetView.configView(data: model, stateNumber: self.getInitialRandomState)
-                    self.widgetView.frame.size.height = self.widgetView.calcHeight()
                     self.widgetView.isHidden = false
                 }
             case let .error(error):

@@ -7,7 +7,7 @@ enum RepositoryResponse {
 
 final class DLViewModel {
     private let apiService: APIStrategy
-    private var result: RepositoryResponse? {
+    private(set) var result: RepositoryResponse? {
         didSet {
             dataCompletion(result)
         }
