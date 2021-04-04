@@ -1,0 +1,44 @@
+{
+  "states": [
+    [
+      "title",
+      "image"
+    ],
+    [
+      "title",
+      "image",
+      "subtitle",
+      "button"
+    ],
+    [
+      "title",
+      "image",
+      "subtitle",
+      "button",
+      "alert"
+    ]
+  ],
+  "attributes": [
+    "title",
+    "image",
+    "subtitle",
+    "button",
+    "alert"
+  ],
+  "viewModel": [
+    {
+      "title": "Problem solved"
+    },
+    {
+      "title": "Problem to be solved",
+      "subtitle": "Author Divisha",
+      "button": "Click me"
+    },
+    {
+      "title": "Problem to be solved",
+      "subtitle": "Author Divisha",
+      "button": "Click me again",
+      "alert": "Please try again"
+    }
+  ]
+}

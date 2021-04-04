@@ -1,0 +1,5 @@
+--wrapparameters after-first
+--wraparguments after-first
+--guardelse same-line
+--ranges nospace
+--disable unusedArguments, wrapMultilineStatementBraces
